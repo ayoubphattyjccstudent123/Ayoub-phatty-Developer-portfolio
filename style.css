@@ -1,3 +1,45 @@
+@media (max-width: 600px) {
+    .contact__container {
+        padding: 1rem 0;
+        gap: 1.2rem;
+    }
+
+    .contact__info {
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .contact__desc {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .contact__form {
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .contact__form input,
+    .contact__form textarea {
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+
+    .contact__submit {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    .pattern--rings-contact {
+        left: -80px;
+        width: 200px;
+    }
+}
+
 /* Contact Section */
 .contact {
     background: var(--color-bg-alt);
